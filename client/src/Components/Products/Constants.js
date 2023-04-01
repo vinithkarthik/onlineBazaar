@@ -1,0 +1,6 @@
+const constants = {
+  UPDATE_ADDED_PRODUCT: 'UPDATE_ADDED_PRODUCT',
+  UPDATE_TOTAL_PRODUCTS: 'UPDATE_TOTAL_PRODUCTS'
+}
+
+export default constants;

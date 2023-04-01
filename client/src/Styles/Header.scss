@@ -1,0 +1,62 @@
+ul.main-nav {
+  li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 2vw;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+.logo {
+  width: 13vw;
+  height: 10vh;
+}
+
+.cart-button {
+  cursor: pointer;
+}
+
+.cart-dialog-title {
+  .cart-dialog-close {
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+  }
+}
+
+.cart-dialog-title {
+  color: white;
+  background-color: black;
+}
+
+.checkout-price {
+  position: absolute;
+  right: 5px;
+}
+
+.cart-dialog-content {
+  min-height: 50vh;
+  .cart-dialog-img {
+    width: 6vw;
+    height: 10vh;
+  }
+}
+
+.cart-empty {
+  p {
+    color: black;
+  }
+}
+
+.login-btn {
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:first-child {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,21 @@
+// @import url('https://fonts.googleapis.com/css?family=Dosis:400,600,700');
+@import "Styles/Variables.scss";
+@import "Styles/Login.scss";
+@import "Styles/Header.scss";
+@import "Styles/ProductCard.scss";
+@import "Styles/Filter.scss";
+@import "Styles/Products.scss";
+@import "Styles/Category.scss";
+@import "Styles/Common.scss";
+
+body {
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
