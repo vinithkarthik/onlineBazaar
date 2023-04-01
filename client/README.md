@@ -21,4 +21,4 @@ You may also see any lint errors in the console.
  Banner, Button, Category Card, Product Card, textbox, Filter, selectbox, Icon button
  
  ## Main tech topics covered
- Accessablility and Responsive web for desktop, tablet and mobile
+ Accessablility, code splitting and Responsive web for desktop, tablet and mobile
