@@ -43,10 +43,10 @@ const Header = () => {
                     <nav aria-label='main navigation'>
                         <ul className='main-nav'>
                             <li>
-                                <a href='/home'>Home</a>
+                                <Link to="/home">Home</Link>
                             </li>
                             <li>
-                                <a href='/products'>Products</a>
+                                <Link to="/products">Products</Link>
                             </li>
                         </ul>
                     </nav>
