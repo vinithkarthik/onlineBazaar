@@ -46,7 +46,7 @@ const CartDialog = ({ list, open, totalItems, handleClose, updateList }) => {
               <Grid item>
                 <Grid container justifyContent={'center'} alignItems={'center'} columnSpacing={3}>
                   <Grid item>
-                    <Iconbutton onClick={() => addItem(list[key].id)} >
+                    <Iconbutton onClick={() => addItem(list[key].id)} ariaLabel={`add ${list[key].name}`}>
                       <AddCircleIcon />
                     </Iconbutton>
                   </Grid>
@@ -54,7 +54,7 @@ const CartDialog = ({ list, open, totalItems, handleClose, updateList }) => {
                     {list[key].quantity}
                   </Grid>
                   <Grid item>
-                    <Iconbutton onClick={() => removeItem(list[key].id)}>
+                    <Iconbutton onClick={() => removeItem(list[key].id)} ariaLabel={`remove ${list[key].name}`}>
                       <RemoveCircleIcon />
                     </Iconbutton>
                   </Grid>
@@ -93,7 +93,7 @@ const CartDialog = ({ list, open, totalItems, handleClose, updateList }) => {
       <Dialog className='cart-dialog' fullWidth open={open} onClose={handleClose}>
         <DialogTitle className='cart-dialog-title'>
           My Cart ({totalItems} item)
-          <Iconbutton onClick={handleClose} className={'cart-dialog-close'}>
+          <Iconbutton onClick={handleClose} className={'cart-dialog-close'} ariaLAbel={"close cart"}>
             <ClearIcon htmlColor={'white'} />
           </Iconbutton>
         </DialogTitle>

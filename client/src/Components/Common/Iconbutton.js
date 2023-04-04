@@ -12,11 +12,12 @@ import { IconButton } from "@mui/material";
  * Examples
  * <Iconbutton children={<Icon></Icon>} className={"cart-close"} onClick={onClick} />
  */
-const Iconbutton = ({ onClick, className, children }) => {
+const Iconbutton = ({ onClick, className, children, ariaLabel = "" }) => {
   return (
     <IconButton
       onClick={onClick}
       className={className}
+      aria-label={ariaLabel}
     >
       {children}
     </IconButton>
